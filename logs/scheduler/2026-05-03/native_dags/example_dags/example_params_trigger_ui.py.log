@@ -1,0 +1,337 @@
+[2026-05-04T00:45:55.246+0300] {processor.py:186} INFO - Started process (PID=5951) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:45:55.247+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:45:55.249+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.248+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:45:55.257+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:45:55.349+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.349+0300] {override.py:1930} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2026-05-04T00:45:55.359+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.358+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2026-05-04T00:45:55.365+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.365+0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2026-05-04T00:45:55.374+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.374+0300] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_params_trigger_ui
+[2026-05-04T00:45:55.379+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.379+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_params_trigger_ui
+[2026-05-04T00:45:55.384+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.384+0300] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_params_trigger_ui
+[2026-05-04T00:45:55.390+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.389+0300] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_params_trigger_ui
+[2026-05-04T00:45:55.390+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.390+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:45:55.398+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.398+0300] {dag.py:3262} INFO - Creating ORM DAG for example_params_trigger_ui
+[2026-05-04T00:45:55.399+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:55.399+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:45:55.413+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.171 seconds
+[2026-05-04T00:46:59.301+0300] {processor.py:186} INFO - Started process (PID=6012) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:46:59.303+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:46:59.305+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:59.304+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:46:59.314+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:46:59.339+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:59.339+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:46:59.350+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:59.349+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:46:59.365+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.069 seconds
+[2026-05-04T00:47:59.690+0300] {processor.py:186} INFO - Started process (PID=6087) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:47:59.698+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:47:59.700+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:59.700+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:47:59.708+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:47:59.732+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:59.732+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:47:59.747+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:59.747+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:47:59.765+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.078 seconds
+[2026-05-04T00:49:00.234+0300] {processor.py:186} INFO - Started process (PID=6145) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:49:00.235+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:49:00.237+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:00.236+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:49:00.245+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:49:00.266+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:00.266+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:49:00.275+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:00.274+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:49:00.291+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.063 seconds
+[2026-05-04T00:49:56.878+0300] {processor.py:186} INFO - Started process (PID=6202) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:49:56.886+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:49:56.887+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:56.887+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:49:56.896+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:49:56.920+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:56.920+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:49:56.930+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:56.930+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:49:56.947+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.074 seconds
+[2026-05-04T00:50:51.618+0300] {processor.py:186} INFO - Started process (PID=6281) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:50:51.628+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:50:51.630+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:51.630+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:50:51.641+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:50:51.667+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:51.667+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:50:51.677+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:51.677+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:50:51.695+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.082 seconds
+[2026-05-04T00:51:46.946+0300] {processor.py:186} INFO - Started process (PID=6334) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:51:46.956+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:51:46.958+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:46.958+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:51:46.968+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:51:46.995+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:46.995+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:51:47.005+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:47.005+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:51:47.025+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.083 seconds
+[2026-05-04T00:52:47.745+0300] {processor.py:186} INFO - Started process (PID=6391) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:52:47.754+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:52:47.756+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:47.756+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:52:47.769+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:52:47.800+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:47.799+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:52:47.813+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:47.812+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:52:47.835+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.094 seconds
+[2026-05-04T00:53:50.082+0300] {processor.py:186} INFO - Started process (PID=6471) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:53:50.084+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:53:50.087+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:50.086+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:53:50.096+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:53:50.121+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:50.121+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:53:50.130+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:50.130+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:53:50.147+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.070 seconds
+[2026-05-04T00:54:52.027+0300] {processor.py:186} INFO - Started process (PID=6538) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:54:52.028+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:54:52.030+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:52.030+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:54:52.039+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:54:52.067+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:52.067+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:54:52.078+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:52.078+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:54:52.096+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.073 seconds
+[2026-05-04T00:55:54.233+0300] {processor.py:186} INFO - Started process (PID=6598) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:55:54.236+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:55:54.238+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:54.237+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:55:54.249+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:55:54.279+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:54.279+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:55:54.291+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:54.291+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:55:54.312+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.085 seconds
+[2026-05-04T00:56:54.965+0300] {processor.py:186} INFO - Started process (PID=6867) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:56:54.974+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:56:54.976+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:54.976+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:56:54.985+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:56:55.014+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:55.013+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:56:55.025+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:55.024+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:56:55.045+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.084 seconds
+[2026-05-04T00:57:53.842+0300] {processor.py:186} INFO - Started process (PID=7164) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:57:53.851+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:57:53.852+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:53.852+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:57:53.861+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:57:53.885+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:53.885+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:57:53.895+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:53.894+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:57:53.911+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.074 seconds
+[2026-05-04T00:58:52.288+0300] {processor.py:186} INFO - Started process (PID=7384) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:58:52.297+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:58:52.299+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:52.298+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:58:52.307+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:58:52.333+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:52.333+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:58:52.342+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:52.342+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:58:52.359+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.076 seconds
+[2026-05-04T00:59:52.311+0300] {processor.py:186} INFO - Started process (PID=8222) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:59:52.320+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T00:59:52.322+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:52.322+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:59:52.332+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T00:59:52.355+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:52.355+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:59:52.363+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:52.363+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T00:59:52.380+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.073 seconds
+[2026-05-04T01:00:56.850+0300] {processor.py:186} INFO - Started process (PID=8490) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:00:56.852+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:00:56.853+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:56.853+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:00:56.862+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:00:56.884+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:56.884+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:00:56.892+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:56.892+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:00:56.910+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.064 seconds
+[2026-05-04T01:02:02.703+0300] {processor.py:186} INFO - Started process (PID=9113) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:02:02.712+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:02:02.713+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:02:02.713+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:02:02.722+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:02:02.744+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:02:02.744+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:02:02.755+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:02:02.755+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:02:02.770+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.071 seconds
+[2026-05-04T01:03:10.916+0300] {processor.py:186} INFO - Started process (PID=9634) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:03:10.926+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:03:10.927+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:10.927+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:03:10.936+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:03:10.958+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:10.957+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:03:10.966+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:10.966+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:03:10.982+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.070 seconds
+[2026-05-04T01:04:13.077+0300] {processor.py:186} INFO - Started process (PID=9900) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:04:13.078+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:04:13.079+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:13.079+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:04:13.088+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:04:13.110+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:13.110+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:04:13.119+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:13.119+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:04:13.138+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.066 seconds
+[2026-05-04T01:05:17.931+0300] {processor.py:186} INFO - Started process (PID=10157) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:05:17.940+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:05:17.941+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:17.941+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:05:17.951+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:05:17.975+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:17.975+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:05:17.987+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:17.987+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:05:18.006+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.079 seconds
+[2026-05-04T01:06:23.509+0300] {processor.py:186} INFO - Started process (PID=10434) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:06:23.518+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:06:23.519+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:23.519+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:06:23.530+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:06:23.554+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:23.554+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:06:23.563+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:23.563+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:06:23.579+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.077 seconds
+[2026-05-04T01:07:29.680+0300] {processor.py:186} INFO - Started process (PID=10683) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:07:29.689+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:07:29.690+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:29.690+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:07:29.702+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:07:29.730+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:29.729+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:07:29.739+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:29.739+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:07:29.757+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.083 seconds
+[2026-05-04T01:08:37.064+0300] {processor.py:186} INFO - Started process (PID=11247) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:08:37.072+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:08:37.073+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:08:37.073+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:08:37.083+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:08:37.108+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:08:37.108+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:08:37.118+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:08:37.118+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:08:37.137+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.078 seconds
+[2026-05-04T01:09:44.988+0300] {processor.py:186} INFO - Started process (PID=12127) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:09:44.993+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:09:44.994+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:44.994+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:09:45.004+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:09:45.027+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:45.026+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:09:45.035+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:45.035+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:09:45.052+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.068 seconds
+[2026-05-04T01:10:53.719+0300] {processor.py:186} INFO - Started process (PID=12397) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:10:53.729+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:10:53.730+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:53.730+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:10:53.739+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:10:53.762+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:53.762+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:10:53.771+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:53.771+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:10:53.789+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.074 seconds
+[2026-05-04T01:12:00.925+0300] {processor.py:186} INFO - Started process (PID=12649) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:12:00.934+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:12:00.935+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:00.935+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:12:00.945+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:12:00.971+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:00.971+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:12:00.982+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:00.982+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:12:00.999+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.078 seconds
+[2026-05-04T01:12:59.319+0300] {processor.py:186} INFO - Started process (PID=12878) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:12:59.328+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:12:59.329+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:59.328+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:12:59.338+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:12:59.363+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:59.363+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:12:59.373+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:59.373+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:12:59.390+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.076 seconds
+[2026-05-04T01:14:02.295+0300] {processor.py:186} INFO - Started process (PID=13511) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:14:02.296+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:14:02.297+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:14:02.297+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:14:02.310+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:14:02.872+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:14:02.871+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:14:02.889+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:14:02.888+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:14:02.918+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.102 seconds
+[2026-05-04T01:15:11.301+0300] {processor.py:186} INFO - Started process (PID=14447) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:15:11.302+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:15:11.303+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:11.302+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:15:11.312+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:15:11.335+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:11.334+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:15:11.343+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:11.343+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:15:11.360+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.064 seconds
+[2026-05-04T01:16:18.537+0300] {processor.py:186} INFO - Started process (PID=15654) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:16:18.547+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:16:18.548+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:18.548+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:16:18.563+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:16:18.604+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:18.604+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:16:18.617+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:18.616+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:16:18.637+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.105 seconds
+[2026-05-04T01:17:27.813+0300] {processor.py:186} INFO - Started process (PID=15922) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:17:27.822+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:17:27.825+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:27.824+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:17:27.843+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:17:27.882+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:27.882+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:17:27.897+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:27.897+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:17:27.933+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.133 seconds
+[2026-05-04T01:18:36.735+0300] {processor.py:186} INFO - Started process (PID=16179) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:18:36.744+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:18:36.745+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:18:36.745+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:18:36.755+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:18:36.778+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:18:36.778+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:18:36.788+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:18:36.788+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:18:36.806+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.075 seconds
+[2026-05-04T01:19:39.709+0300] {processor.py:186} INFO - Started process (PID=16427) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:19:39.717+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:19:39.719+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:39.718+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:19:39.728+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:19:39.753+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:39.753+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:19:39.762+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:39.762+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:19:39.781+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.076 seconds
+[2026-05-04T01:20:46.491+0300] {processor.py:186} INFO - Started process (PID=16691) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:20:46.500+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:20:46.501+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:46.501+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:20:46.511+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:20:46.535+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:46.535+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:20:46.543+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:46.543+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:20:46.561+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.074 seconds
+[2026-05-04T01:21:54.610+0300] {processor.py:186} INFO - Started process (PID=16949) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:21:54.611+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:21:54.612+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:54.612+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:21:54.623+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:21:54.650+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:54.650+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:21:54.661+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:54.660+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:21:54.679+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.074 seconds
+[2026-05-04T01:23:07.332+0300] {processor.py:186} INFO - Started process (PID=17222) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:23:07.334+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:23:07.335+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:23:07.334+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:23:07.344+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:23:07.367+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:23:07.366+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:23:07.375+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:23:07.375+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:23:07.391+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.063 seconds
+[2026-05-04T01:24:12.733+0300] {processor.py:186} INFO - Started process (PID=17472) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:24:12.742+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:24:12.743+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:12.743+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:24:12.753+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:24:12.778+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:12.778+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:24:12.787+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:12.787+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:24:12.803+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.075 seconds
+[2026-05-04T01:25:22.722+0300] {processor.py:186} INFO - Started process (PID=18085) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:25:22.723+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:25:22.725+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:22.724+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:25:22.734+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:25:22.760+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:22.759+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:25:22.769+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:22.769+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:25:22.787+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.070 seconds
+[2026-05-04T01:26:34.635+0300] {processor.py:186} INFO - Started process (PID=19341) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:26:34.644+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:26:34.646+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:26:34.645+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:26:34.657+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:26:34.683+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:26:34.683+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:26:34.694+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:26:34.693+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:26:34.710+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.079 seconds
+[2026-05-04T01:27:42.079+0300] {processor.py:186} INFO - Started process (PID=19602) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:27:42.087+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:27:42.088+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:42.088+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:27:42.098+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:27:42.122+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:42.122+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:27:42.130+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:42.130+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:27:42.271+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.196 seconds
+[2026-05-04T01:28:54.702+0300] {processor.py:186} INFO - Started process (PID=19878) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:28:54.710+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:28:54.711+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:54.711+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:28:54.721+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:28:54.744+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:54.744+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:28:54.752+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:54.752+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:28:54.769+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.072 seconds
+[2026-05-04T01:30:05.540+0300] {processor.py:186} INFO - Started process (PID=20141) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:30:05.545+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:30:05.549+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:30:05.547+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:30:05.575+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:30:05.624+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:30:05.624+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:30:05.649+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:30:05.648+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:30:05.696+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.168 seconds
+[2026-05-04T01:31:20.192+0300] {processor.py:186} INFO - Started process (PID=20418) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:31:20.201+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:31:20.202+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:20.202+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:31:20.216+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:31:20.398+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:20.397+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:31:20.408+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:20.407+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:31:20.425+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.238 seconds
+[2026-05-04T01:32:37.625+0300] {processor.py:186} INFO - Started process (PID=20730) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:32:37.635+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:32:37.636+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:32:37.636+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:32:37.645+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:32:37.671+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:32:37.671+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:32:37.682+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:32:37.682+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:32:37.701+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.080 seconds
+[2026-05-04T01:33:43.478+0300] {processor.py:186} INFO - Started process (PID=21236) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:33:43.486+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:33:43.487+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:43.487+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:33:43.496+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:33:43.519+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:43.518+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:33:43.527+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:43.527+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:33:43.542+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.069 seconds
+[2026-05-04T01:34:46.760+0300] {processor.py:186} INFO - Started process (PID=21474) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:34:46.769+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:34:46.770+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:46.770+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:34:46.779+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:34:46.804+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:46.803+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:34:46.812+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:46.812+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:34:46.828+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.072 seconds
+[2026-05-04T01:35:48.982+0300] {processor.py:186} INFO - Started process (PID=21721) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:35:48.983+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2026-05-04T01:35:48.985+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:48.984+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:35:48.996+0300] {processor.py:925} INFO - DAG(s) 'example_params_trigger_ui' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2026-05-04T01:35:49.026+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:49.026+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:35:49.037+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:49.037+0300] {dag.py:4180} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2026-05-04T01:35:49.055+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.077 seconds

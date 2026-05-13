@@ -1,0 +1,21 @@
+[2026-05-04T01:57:57.135+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T01:57:57.144+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: finance_postgres_dag.get_all_clients scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2026-05-04T01:57:57.149+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: finance_postgres_dag.get_all_clients scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2026-05-04T01:57:57.149+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 2
+[2026-05-04T01:57:57.160+0300] {taskinstance.py:2907} INFO - Executing <Task(SQLExecuteQueryOperator): get_all_clients> on 2024-01-01 00:00:00+00:00
+[2026-05-04T01:57:57.162+0300] {standard_task_runner.py:72} INFO - Started process 25601 to run task
+[2026-05-04T01:57:57.166+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'finance_postgres_dag', 'get_all_clients', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', '/home/nikita/airflow/dags/finance_postgress_dag.py', '--cfg-path', '/tmp/tmplj4ziin_']
+[2026-05-04T01:57:57.168+0300] {standard_task_runner.py:105} INFO - Job 17: Subtask get_all_clients
+[2026-05-04T01:57:57.203+0300] {task_command.py:467} INFO - Running <TaskInstance: finance_postgres_dag.get_all_clients scheduled__2024-01-01T00:00:00+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T01:57:57.252+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='finance_team' AIRFLOW_CTX_DAG_ID='finance_postgres_dag' AIRFLOW_CTX_TASK_ID='get_all_clients' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2026-05-04T01:57:57.253+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T01:57:57.266+0300] {sql.py:306} INFO - Executing: SELECT * FROM clients;
+[2026-05-04T01:57:57.274+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:57:57.293+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:57:57.302+0300] {sql.py:814} INFO - Running statement: SELECT * FROM clients;, parameters: None
+[2026-05-04T01:57:57.305+0300] {sql.py:823} INFO - Rows affected: 3
+[2026-05-04T01:57:57.318+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T01:57:57.318+0300] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=finance_postgres_dag, task_id=get_all_clients, run_id=scheduled__2024-01-01T00:00:00+00:00, execution_date=20240101T000000, start_date=20260503T225757, end_date=20260503T225757
+[2026-05-04T01:57:57.338+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-04T01:57:57.345+0300] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T01:57:57.346+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

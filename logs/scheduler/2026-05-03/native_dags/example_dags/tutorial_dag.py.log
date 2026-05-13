@@ -1,0 +1,337 @@
+[2026-05-04T00:45:45.664+0300] {processor.py:186} INFO - Started process (PID=5942) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:45:45.664+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:45:45.666+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.666+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:45:45.671+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:45:45.748+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.747+0300] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2026-05-04T00:45:45.756+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.755+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2026-05-04T00:45:45.762+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.762+0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2026-05-04T00:45:45.770+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.770+0300] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2026-05-04T00:45:45.776+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.775+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2026-05-04T00:45:45.781+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.781+0300] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2026-05-04T00:45:45.786+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.786+0300] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2026-05-04T00:45:45.786+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.786+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:45:45.794+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.794+0300] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2026-05-04T00:45:45.795+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:45:45.795+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:45:45.809+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.149 seconds
+[2026-05-04T00:46:49.466+0300] {processor.py:186} INFO - Started process (PID=6003) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:46:49.471+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:46:49.473+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:49.473+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:46:49.480+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:46:49.492+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:49.491+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:46:49.502+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:49.502+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:46:49.519+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2026-05-04T00:47:50.683+0300] {processor.py:186} INFO - Started process (PID=6078) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:47:50.693+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:47:50.695+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:50.694+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:47:50.700+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:47:50.710+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:50.710+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:47:50.717+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:50.717+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:47:50.734+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2026-05-04T00:48:51.625+0300] {processor.py:186} INFO - Started process (PID=6136) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:48:51.635+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:48:51.638+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:48:51.638+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:48:51.649+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:48:51.669+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:48:51.668+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:48:51.683+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:48:51.683+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:48:51.702+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.086 seconds
+[2026-05-04T00:49:47.870+0300] {processor.py:186} INFO - Started process (PID=6193) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:49:47.872+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:49:47.874+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:47.874+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:49:47.880+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:49:47.893+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:47.893+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:49:47.902+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:47.902+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:49:47.919+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.053 seconds
+[2026-05-04T00:50:43.127+0300] {processor.py:186} INFO - Started process (PID=6269) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:50:43.136+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:50:43.137+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:43.137+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:50:43.143+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:50:43.153+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:43.153+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:50:43.162+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:43.162+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:50:43.178+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2026-05-04T00:51:37.046+0300] {processor.py:186} INFO - Started process (PID=6325) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:51:37.055+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:51:37.057+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:37.056+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:51:37.063+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:51:37.074+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:37.074+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:51:37.084+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:37.084+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:51:37.105+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2026-05-04T00:52:36.133+0300] {processor.py:186} INFO - Started process (PID=6382) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:52:36.135+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:52:36.138+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:36.137+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:52:36.147+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:52:36.160+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:36.160+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:52:36.169+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:36.169+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:52:36.185+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2026-05-04T00:53:39.333+0300] {processor.py:186} INFO - Started process (PID=6462) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:53:39.341+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:53:39.343+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:39.343+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:53:39.349+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:53:39.359+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:39.359+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:53:39.367+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:39.366+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:53:39.381+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.053 seconds
+[2026-05-04T00:54:40.818+0300] {processor.py:186} INFO - Started process (PID=6526) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:54:40.826+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:54:40.828+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:40.827+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:54:40.834+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:54:40.846+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:40.846+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:54:40.857+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:40.857+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:54:40.876+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2026-05-04T00:55:44.770+0300] {processor.py:186} INFO - Started process (PID=6588) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:55:44.778+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:55:44.780+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:44.779+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:55:44.786+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:55:44.798+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:44.798+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:55:44.809+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:44.809+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:55:44.827+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.062 seconds
+[2026-05-04T00:56:43.515+0300] {processor.py:186} INFO - Started process (PID=6808) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:56:43.524+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:56:43.527+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:43.526+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:56:43.537+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:56:43.554+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:43.554+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:56:43.567+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:43.566+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:56:43.588+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.080 seconds
+[2026-05-04T00:57:45.126+0300] {processor.py:186} INFO - Started process (PID=7125) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:57:45.128+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:57:45.130+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:45.129+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:57:45.136+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:57:45.147+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:45.147+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:57:45.157+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:45.157+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:57:45.173+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.051 seconds
+[2026-05-04T00:58:42.732+0300] {processor.py:186} INFO - Started process (PID=7348) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:58:42.740+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:58:42.742+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:42.742+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:58:42.749+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:58:42.761+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:42.761+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:58:42.771+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:42.771+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:58:42.789+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2026-05-04T00:59:42.238+0300] {processor.py:186} INFO - Started process (PID=8176) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:59:42.240+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T00:59:42.241+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:42.241+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:59:42.247+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T00:59:42.257+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:42.257+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:59:42.266+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:42.266+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T00:59:42.282+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2026-05-04T01:00:47.308+0300] {processor.py:186} INFO - Started process (PID=8430) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:00:47.317+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:00:47.318+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:47.318+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:00:47.328+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:00:47.342+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:47.342+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:00:47.354+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:47.354+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:00:47.374+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2026-05-04T01:01:53.470+0300] {processor.py:186} INFO - Started process (PID=9032) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:01:53.472+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:01:53.473+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:01:53.473+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:01:53.483+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:01:53.502+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:01:53.502+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:01:53.517+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:01:53.516+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:01:53.537+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2026-05-04T01:03:01.411+0300] {processor.py:186} INFO - Started process (PID=9601) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:03:01.420+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:03:01.421+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:01.421+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:03:01.427+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:03:01.438+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:01.438+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:03:01.448+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:01.448+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:03:01.466+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2026-05-04T01:04:03.499+0300] {processor.py:186} INFO - Started process (PID=9866) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:04:03.508+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:04:03.509+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:03.509+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:04:03.515+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:04:03.525+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:03.525+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:04:03.533+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:03.533+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:04:03.550+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2026-05-04T01:05:08.734+0300] {processor.py:186} INFO - Started process (PID=10124) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:05:08.736+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:05:08.737+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:08.737+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:05:08.746+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:05:08.763+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:08.762+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:05:08.775+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:08.774+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:05:08.798+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2026-05-04T01:06:16.106+0300] {processor.py:186} INFO - Started process (PID=10401) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:06:16.115+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:06:16.116+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:16.116+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:06:16.123+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:06:16.134+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:16.134+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:06:16.143+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:16.143+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:06:16.161+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2026-05-04T01:07:21.274+0300] {processor.py:186} INFO - Started process (PID=10650) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:07:21.283+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:07:21.284+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:21.284+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:07:21.291+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:07:21.303+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:21.303+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:07:21.314+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:21.314+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:07:21.334+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2026-05-04T01:08:28.987+0300] {processor.py:186} INFO - Started process (PID=11214) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:08:28.992+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:08:28.994+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:08:28.993+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:08:29.002+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:08:29.015+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:08:29.015+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:08:29.026+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:08:29.026+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:08:29.047+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2026-05-04T01:09:35.854+0300] {processor.py:186} INFO - Started process (PID=12066) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:09:35.864+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:09:35.865+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:35.865+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:09:35.871+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:09:35.882+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:35.882+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:09:35.892+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:35.892+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:09:35.910+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2026-05-04T01:10:43.968+0300] {processor.py:186} INFO - Started process (PID=12364) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:10:43.977+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:10:43.978+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:43.978+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:10:43.986+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:10:43.999+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:43.999+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:10:44.010+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:44.010+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:10:44.027+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2026-05-04T01:11:51.181+0300] {processor.py:186} INFO - Started process (PID=12616) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:11:51.189+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:11:51.190+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:11:51.190+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:11:51.196+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:11:51.207+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:11:51.207+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:11:51.217+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:11:51.216+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:11:51.233+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2026-05-04T01:12:50.317+0300] {processor.py:186} INFO - Started process (PID=12845) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:12:50.319+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:12:50.320+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:50.320+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:12:50.328+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:12:50.340+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:50.340+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:12:50.351+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:50.351+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:12:50.371+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2026-05-04T01:13:52.623+0300] {processor.py:186} INFO - Started process (PID=13445) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:13:52.631+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:13:52.632+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:13:52.632+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:13:52.638+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:13:52.649+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:13:52.649+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:13:52.657+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:13:52.657+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:13:52.676+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2026-05-04T01:15:01.036+0300] {processor.py:186} INFO - Started process (PID=14408) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:15:01.038+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:15:01.039+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:01.038+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:15:01.044+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:15:01.055+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:01.054+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:15:01.063+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:01.063+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:15:01.079+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2026-05-04T01:16:09.071+0300] {processor.py:186} INFO - Started process (PID=15618) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:16:09.073+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:16:09.073+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:09.073+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:16:09.080+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:16:09.090+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:09.090+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:16:09.099+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:09.099+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:16:09.116+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2026-05-04T01:17:18.191+0300] {processor.py:186} INFO - Started process (PID=15883) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:17:18.194+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:17:18.198+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:18.197+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:17:18.215+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:17:18.235+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:18.234+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:17:18.254+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:18.254+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:17:18.291+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.108 seconds
+[2026-05-04T01:18:26.480+0300] {processor.py:186} INFO - Started process (PID=16140) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:18:26.490+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:18:26.491+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:18:26.491+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:18:26.499+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:18:26.513+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:18:26.512+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:18:26.524+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:18:26.524+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:18:26.549+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.074 seconds
+[2026-05-04T01:19:30.576+0300] {processor.py:186} INFO - Started process (PID=16388) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:19:30.587+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:19:30.588+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:30.588+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:19:30.595+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:19:30.605+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:30.605+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:19:30.613+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:30.613+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:19:30.629+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2026-05-04T01:20:37.494+0300] {processor.py:186} INFO - Started process (PID=16658) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:20:37.504+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:20:37.505+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:37.505+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:20:37.514+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:20:37.527+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:37.526+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:20:37.537+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:37.537+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:20:37.555+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2026-05-04T01:21:43.715+0300] {processor.py:186} INFO - Started process (PID=16909) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:21:43.717+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:21:43.718+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:43.718+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:21:43.725+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:21:43.735+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:43.735+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:21:43.745+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:43.745+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:21:43.760+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2026-05-04T01:22:59.851+0300] {processor.py:186} INFO - Started process (PID=17189) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:22:59.860+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:22:59.862+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:22:59.861+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:22:59.868+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:22:59.881+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:22:59.880+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:22:59.891+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:22:59.890+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:22:59.908+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.063 seconds
+[2026-05-04T01:24:04.054+0300] {processor.py:186} INFO - Started process (PID=17439) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:24:04.061+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:24:04.062+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:04.062+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:24:04.068+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:24:04.079+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:04.078+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:24:04.088+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:04.087+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:24:04.104+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2026-05-04T01:25:13.961+0300] {processor.py:186} INFO - Started process (PID=18012) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:25:13.963+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:25:13.964+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:13.964+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:25:13.971+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:25:13.985+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:13.985+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:25:13.996+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:13.996+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:25:14.015+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2026-05-04T01:26:24.234+0300] {processor.py:186} INFO - Started process (PID=19299) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:26:24.243+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:26:24.244+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:26:24.244+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:26:24.251+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:26:24.264+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:26:24.263+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:26:24.397+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:26:24.397+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:26:24.413+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.184 seconds
+[2026-05-04T01:27:31.711+0300] {processor.py:186} INFO - Started process (PID=19563) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:27:31.721+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:27:31.722+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:31.722+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:27:31.730+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:27:31.743+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:31.743+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:27:31.754+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:31.754+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:27:31.775+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2026-05-04T01:28:46.454+0300] {processor.py:186} INFO - Started process (PID=19845) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:28:46.455+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:28:46.456+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:46.456+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:28:46.462+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:28:46.473+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:46.473+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:28:46.482+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:46.482+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:28:46.498+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2026-05-04T01:29:55.092+0300] {processor.py:186} INFO - Started process (PID=20102) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:29:55.102+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:29:55.103+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:29:55.103+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:29:55.109+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:29:55.120+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:29:55.119+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:29:55.241+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:29:55.241+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:29:55.257+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.168 seconds
+[2026-05-04T01:31:08.907+0300] {processor.py:186} INFO - Started process (PID=20379) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:31:08.909+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:31:08.910+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:08.910+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:31:08.916+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:31:08.928+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:08.928+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:31:09.064+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:09.064+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:31:09.080+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.177 seconds
+[2026-05-04T01:32:28.624+0300] {processor.py:186} INFO - Started process (PID=20674) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:32:28.626+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:32:28.627+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:32:28.627+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:32:28.633+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:32:28.646+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:32:28.646+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:32:28.657+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:32:28.656+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:32:28.675+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.054 seconds
+[2026-05-04T01:33:35.458+0300] {processor.py:186} INFO - Started process (PID=21097) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:33:35.467+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:33:35.468+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:35.468+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:33:35.474+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:33:35.485+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:35.485+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:33:35.494+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:35.494+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:33:35.511+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2026-05-04T01:34:38.541+0300] {processor.py:186} INFO - Started process (PID=21441) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:34:38.542+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:34:38.543+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:38.543+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:34:38.550+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:34:38.565+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:38.564+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:34:38.576+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:38.576+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:34:38.592+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2026-05-04T01:35:40.417+0300] {processor.py:186} INFO - Started process (PID=21682) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:35:40.427+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-05-04T01:35:40.429+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:40.428+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:35:40.436+0300] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-05-04T01:35:40.451+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:40.451+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:35:40.463+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:40.463+0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-05-04T01:35:40.484+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds

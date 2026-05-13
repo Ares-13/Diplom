@@ -1,0 +1,25 @@
+[2026-05-04T01:55:26.845+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T01:55:26.855+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dynamic_partition_creation.check_for_rows_in_default scheduled__2026-05-03T12:00:00+00:00 [queued]>
+[2026-05-04T01:55:26.859+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dynamic_partition_creation.check_for_rows_in_default scheduled__2026-05-03T12:00:00+00:00 [queued]>
+[2026-05-04T01:55:26.859+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 3
+[2026-05-04T01:55:26.871+0300] {taskinstance.py:2907} INFO - Executing <Task(BranchPythonOperator): check_for_rows_in_default> on 2026-05-03 12:00:00+00:00
+[2026-05-04T01:55:26.873+0300] {standard_task_runner.py:72} INFO - Started process 25088 to run task
+[2026-05-04T01:55:26.875+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dynamic_partition_creation', 'check_for_rows_in_default', 'scheduled__2026-05-03T12:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/partition_creation_dag.py', '--cfg-path', '/tmp/tmp8i2h7msy']
+[2026-05-04T01:55:26.877+0300] {standard_task_runner.py:105} INFO - Job 5: Subtask check_for_rows_in_default
+[2026-05-04T01:55:26.909+0300] {task_command.py:467} INFO - Running <TaskInstance: dynamic_partition_creation.check_for_rows_in_default scheduled__2026-05-03T12:00:00+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T01:55:26.956+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dynamic_partition_creation' AIRFLOW_CTX_TASK_ID='check_for_rows_in_default' AIRFLOW_CTX_EXECUTION_DATE='2026-05-03T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-03T12:00:00+00:00'
+[2026-05-04T01:55:26.957+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T01:55:26.967+0300] {baseoperator.py:423} WARNING - BranchPythonOperator.execute cannot be called outside TaskInstance!
+[2026-05-04T01:55:26.974+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:55:26.985+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_default, parameters: None
+[2026-05-04T01:55:26.987+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:26.996+0300] {partition_creation_dag.py:41} INFO - Rows in default partition before run: 2
+[2026-05-04T01:55:26.996+0300] {python.py:240} INFO - Done. Returned value was: create_partitions
+[2026-05-04T01:55:26.996+0300] {branch.py:38} INFO - Branch into create_partitions
+[2026-05-04T01:55:26.997+0300] {skipmixin.py:233} INFO - Following branch ('create_partitions',)
+[2026-05-04T01:55:27.001+0300] {skipmixin.py:281} INFO - Skipping tasks [('skip_creation', -1)]
+[2026-05-04T01:55:27.016+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T01:55:27.016+0300] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=dynamic_partition_creation, task_id=check_for_rows_in_default, run_id=scheduled__2026-05-03T12:00:00+00:00, execution_date=20260503T120000, start_date=20260503T225526, end_date=20260503T225527
+[2026-05-04T01:55:27.049+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-04T01:55:27.062+0300] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T01:55:27.067+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

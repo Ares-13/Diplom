@@ -1,0 +1,57 @@
+[2026-05-04T01:55:34.521+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T01:55:34.533+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dynamic_partition_creation.collect_partition_stats scheduled__2026-05-03T12:00:00+00:00 [queued]>
+[2026-05-04T01:55:34.538+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dynamic_partition_creation.collect_partition_stats scheduled__2026-05-03T12:00:00+00:00 [queued]>
+[2026-05-04T01:55:34.539+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 3
+[2026-05-04T01:55:34.550+0300] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): collect_partition_stats> on 2026-05-03 12:00:00+00:00
+[2026-05-04T01:55:34.554+0300] {standard_task_runner.py:72} INFO - Started process 25130 to run task
+[2026-05-04T01:55:34.556+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dynamic_partition_creation', 'collect_partition_stats', 'scheduled__2026-05-03T12:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/partition_creation_dag.py', '--cfg-path', '/tmp/tmpc1n49ix8']
+[2026-05-04T01:55:34.557+0300] {standard_task_runner.py:105} INFO - Job 9: Subtask collect_partition_stats
+[2026-05-04T01:55:34.591+0300] {task_command.py:467} INFO - Running <TaskInstance: dynamic_partition_creation.collect_partition_stats scheduled__2026-05-03T12:00:00+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T01:55:34.638+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dynamic_partition_creation' AIRFLOW_CTX_TASK_ID='collect_partition_stats' AIRFLOW_CTX_EXECUTION_DATE='2026-05-03T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-03T12:00:00+00:00'
+[2026-05-04T01:55:34.640+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T01:55:34.659+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:55:34.670+0300] {sql.py:814} INFO - Running statement: 
+        SELECT c.relname
+        FROM pg_inherits i
+        JOIN pg_class c ON c.oid = i.inhrelid
+        WHERE i.inhparent = 'public.trains_with_partition'::regclass
+        ORDER BY c.relname
+        , parameters: None
+[2026-05-04T01:55:34.673+0300] {sql.py:823} INFO - Rows affected: 6
+[2026-05-04T01:55:34.682+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_default, parameters: None
+[2026-05-04T01:55:34.684+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.693+0300] {sql.py:814} INFO - Running statement: SELECT pg_size_pretty(pg_total_relation_size(%s::regclass)), parameters: ('public.trains_default',)
+[2026-05-04T01:55:34.695+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.703+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_demo_20260310, parameters: None
+[2026-05-04T01:55:34.706+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.713+0300] {sql.py:814} INFO - Running statement: SELECT pg_size_pretty(pg_total_relation_size(%s::regclass)), parameters: ('public.trains_demo_20260310',)
+[2026-05-04T01:55:34.716+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.724+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_highspeed, parameters: None
+[2026-05-04T01:55:34.735+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.743+0300] {sql.py:814} INFO - Running statement: SELECT pg_size_pretty(pg_total_relation_size(%s::regclass)), parameters: ('public.trains_highspeed',)
+[2026-05-04T01:55:34.746+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.754+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_long_distance, parameters: None
+[2026-05-04T01:55:34.765+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.774+0300] {sql.py:814} INFO - Running statement: SELECT pg_size_pretty(pg_total_relation_size(%s::regclass)), parameters: ('public.trains_long_distance',)
+[2026-05-04T01:55:34.776+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.783+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_other, parameters: None
+[2026-05-04T01:55:34.794+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.803+0300] {sql.py:814} INFO - Running statement: SELECT pg_size_pretty(pg_total_relation_size(%s::regclass)), parameters: ('public.trains_other',)
+[2026-05-04T01:55:34.805+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.812+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_suburban, parameters: None
+[2026-05-04T01:55:34.823+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.830+0300] {sql.py:814} INFO - Running statement: SELECT pg_size_pretty(pg_total_relation_size(%s::regclass)), parameters: ('public.trains_suburban',)
+[2026-05-04T01:55:34.833+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.834+0300] {partition_creation_dag.py:98} INFO - Partition stats: [{'partition': 'trains_default', 'rows': 0, 'size': '40 kB'}, {'partition': 'trains_demo_20260310', 'rows': 2, 'size': '40 kB'}, {'partition': 'trains_highspeed', 'rows': 250057, 'size': '33 MB'}, {'partition': 'trains_long_distance', 'rows': 299907, 'size': '41 MB'}, {'partition': 'trains_other', 'rows': 250232, 'size': '35 MB'}, {'partition': 'trains_suburban', 'rows': 199804, 'size': '28 MB'}]
+[2026-05-04T01:55:34.854+0300] {sql.py:814} INFO - Running statement: 
+        INSERT INTO public.partition_log
+            (operation_type, rows_affected, status, executed_by)
+        VALUES ('STATS_COLLECTION', %s, 'SUCCESS', 'airflow_dag')
+        , parameters: (1000002,)
+[2026-05-04T01:55:34.857+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:34.859+0300] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-04T01:55:34.863+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T01:55:34.863+0300] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=dynamic_partition_creation, task_id=collect_partition_stats, run_id=scheduled__2026-05-03T12:00:00+00:00, execution_date=20260503T120000, start_date=20260503T225534, end_date=20260503T225534
+[2026-05-04T01:55:34.889+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-04T01:55:34.896+0300] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T01:55:34.896+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

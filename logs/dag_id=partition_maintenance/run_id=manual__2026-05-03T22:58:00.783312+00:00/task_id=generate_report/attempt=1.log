@@ -1,0 +1,32 @@
+[2026-05-04T01:58:16.021+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T01:58:16.031+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: partition_maintenance.generate_report manual__2026-05-03T22:58:00.783312+00:00 [queued]>
+[2026-05-04T01:58:16.036+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: partition_maintenance.generate_report manual__2026-05-03T22:58:00.783312+00:00 [queued]>
+[2026-05-04T01:58:16.036+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 2
+[2026-05-04T01:58:16.049+0300] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): generate_report> on 2026-05-03 22:58:00.783312+00:00
+[2026-05-04T01:58:16.051+0300] {standard_task_runner.py:72} INFO - Started process 25701 to run task
+[2026-05-04T01:58:16.054+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'partition_maintenance', 'generate_report', 'manual__2026-05-03T22:58:00.783312+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/partition_maintenance_dag.py', '--cfg-path', '/tmp/tmpsf2iw9q4']
+[2026-05-04T01:58:16.055+0300] {standard_task_runner.py:105} INFO - Job 27: Subtask generate_report
+[2026-05-04T01:58:16.085+0300] {task_command.py:467} INFO - Running <TaskInstance: partition_maintenance.generate_report manual__2026-05-03T22:58:00.783312+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T01:58:16.135+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='partition_maintenance' AIRFLOW_CTX_TASK_ID='generate_report' AIRFLOW_CTX_EXECUTION_DATE='2026-05-03T22:58:00.783312+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-03T22:58:00.783312+00:00'
+[2026-05-04T01:58:16.136+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T01:58:16.161+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:58:16.173+0300] {sql.py:814} INFO - Running statement: 
+        SELECT COUNT(*)
+        FROM public.partition_log
+        WHERE operation_type = 'ARCHIVE_PARTITION'
+          AND status = 'SUCCESS'
+          AND executed_at >= NOW() - interval '8 days'
+        , parameters: None
+[2026-05-04T01:58:16.176+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:58:16.178+0300] {partition_maintenance_dag.py:86} INFO - ============================================================
+[2026-05-04T01:58:16.178+0300] {partition_maintenance_dag.py:87} INFO - PARTITION MAINTENANCE SUMMARY
+[2026-05-04T01:58:16.178+0300] {partition_maintenance_dag.py:88} INFO - Checked partitions: 6
+[2026-05-04T01:58:16.178+0300] {partition_maintenance_dag.py:89} INFO - Detected issues: 0
+[2026-05-04T01:58:16.179+0300] {partition_maintenance_dag.py:90} INFO - Archived partitions in last 8 days: 0
+[2026-05-04T01:58:16.179+0300] {partition_maintenance_dag.py:91} INFO - ============================================================
+[2026-05-04T01:58:16.179+0300] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-04T01:58:16.184+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T01:58:16.185+0300] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=partition_maintenance, task_id=generate_report, run_id=manual__2026-05-03T22:58:00.783312+00:00, execution_date=20260503T225800, start_date=20260503T225816, end_date=20260503T225816
+[2026-05-04T01:58:16.227+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-04T01:58:16.239+0300] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T01:58:16.240+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

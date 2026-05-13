@@ -1,0 +1,337 @@
+[2026-05-04T00:46:18.844+0300] {processor.py:186} INFO - Started process (PID=5977) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:46:18.845+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:46:18.849+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:18.848+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:46:18.857+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:46:18.969+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:18.969+0300] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only
+[2026-05-04T00:46:18.990+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:18.989+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only
+[2026-05-04T00:46:19.002+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.001+0300] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only
+[2026-05-04T00:46:19.022+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.022+0300] {override.py:1930} INFO - Created Permission View: can read on DAG Run:latest_only
+[2026-05-04T00:46:19.035+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.035+0300] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:latest_only
+[2026-05-04T00:46:19.051+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.051+0300] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:latest_only
+[2026-05-04T00:46:19.059+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.059+0300] {override.py:1930} INFO - Created Permission View: can create on DAG Run:latest_only
+[2026-05-04T00:46:19.060+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.060+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:46:19.069+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.069+0300] {dag.py:3262} INFO - Creating ORM DAG for latest_only
+[2026-05-04T00:46:19.077+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:46:19.076+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:46:19.094+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.257 seconds
+[2026-05-04T00:47:26.151+0300] {processor.py:186} INFO - Started process (PID=6055) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:47:26.152+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:47:26.154+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:26.153+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:47:26.160+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:47:26.174+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:26.173+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:47:26.187+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:47:26.187+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:47:26.204+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2026-05-04T00:48:25.102+0300] {processor.py:186} INFO - Started process (PID=6112) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:48:25.112+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:48:25.113+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:48:25.113+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:48:25.119+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:48:25.129+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:48:25.128+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:48:25.145+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:48:25.145+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:48:25.164+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2026-05-04T00:49:25.382+0300] {processor.py:186} INFO - Started process (PID=6170) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:49:25.390+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:49:25.393+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:25.392+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:49:25.399+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:49:25.413+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:25.413+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:49:25.429+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:49:25.429+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:49:25.445+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2026-05-04T00:50:22.546+0300] {processor.py:186} INFO - Started process (PID=6246) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:50:22.555+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:50:22.557+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:22.556+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:50:22.562+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:50:22.572+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:22.572+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:50:22.585+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:50:22.585+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:50:22.601+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.058 seconds
+[2026-05-04T00:51:20.466+0300] {processor.py:186} INFO - Started process (PID=6309) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:51:20.470+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:51:20.472+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:20.472+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:51:20.481+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:51:20.494+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:20.494+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:51:20.513+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:51:20.513+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:51:20.546+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.091 seconds
+[2026-05-04T00:52:17.844+0300] {processor.py:186} INFO - Started process (PID=6363) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:52:17.845+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:52:17.847+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:17.847+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:52:17.855+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:52:17.877+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:17.877+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:52:17.909+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:52:17.909+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:52:17.950+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2026-05-04T00:53:19.992+0300] {processor.py:186} INFO - Started process (PID=6442) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:53:19.995+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:53:19.997+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:19.997+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:53:20.003+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:53:20.015+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:20.014+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:53:20.028+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:53:20.028+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:53:20.044+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2026-05-04T00:54:19.413+0300] {processor.py:186} INFO - Started process (PID=6499) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:54:19.421+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:54:19.423+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:19.423+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:54:19.428+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:54:19.438+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:19.438+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:54:19.451+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:54:19.451+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:54:19.468+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.060 seconds
+[2026-05-04T00:55:23.569+0300] {processor.py:186} INFO - Started process (PID=6568) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:55:23.578+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:55:23.580+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:23.580+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:55:23.586+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:55:23.600+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:23.600+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:55:23.616+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:55:23.616+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:55:23.633+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.068 seconds
+[2026-05-04T00:56:23.994+0300] {processor.py:186} INFO - Started process (PID=6627) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:56:23.995+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:56:23.998+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:23.998+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:56:24.005+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:56:24.018+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:24.018+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:56:24.034+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:56:24.033+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:56:24.051+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2026-05-04T00:57:20.776+0300] {processor.py:186} INFO - Started process (PID=7037) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:57:20.777+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:57:20.779+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:20.779+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:57:20.787+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:57:20.804+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:20.804+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:57:20.827+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:57:20.827+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:57:20.855+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.085 seconds
+[2026-05-04T00:58:21.122+0300] {processor.py:186} INFO - Started process (PID=7264) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:58:21.124+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:58:21.126+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:21.125+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:58:21.131+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:58:21.143+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:21.143+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:58:21.158+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:58:21.157+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:58:21.174+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.056 seconds
+[2026-05-04T00:59:18.410+0300] {processor.py:186} INFO - Started process (PID=7524) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:59:18.412+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T00:59:18.415+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:18.414+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:59:18.422+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T00:59:18.437+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:18.437+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T00:59:18.454+0300] {logging_mixin.py:190} INFO - [2026-05-04T00:59:18.454+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T00:59:18.471+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.067 seconds
+[2026-05-04T01:00:17.469+0300] {processor.py:186} INFO - Started process (PID=8319) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:00:17.471+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:00:17.473+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:17.472+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:00:17.478+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:00:17.489+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:17.489+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:00:17.502+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:00:17.502+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:00:17.518+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.053 seconds
+[2026-05-04T01:01:23.701+0300] {processor.py:186} INFO - Started process (PID=8722) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:01:23.710+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:01:23.711+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:01:23.711+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:01:23.718+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:01:23.729+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:01:23.729+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:01:23.743+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:01:23.743+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:01:23.760+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2026-05-04T01:02:31.986+0300] {processor.py:186} INFO - Started process (PID=9359) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:02:31.996+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:02:31.997+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:02:31.997+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:02:32.003+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:02:32.017+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:02:32.017+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:02:32.032+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:02:32.032+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:02:32.049+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.067 seconds
+[2026-05-04T01:03:35.455+0300] {processor.py:186} INFO - Started process (PID=9733) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:03:35.463+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:03:35.464+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:35.464+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:03:35.471+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:03:35.486+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:35.486+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:03:35.507+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:03:35.506+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:03:35.533+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2026-05-04T01:04:38.996+0300] {processor.py:186} INFO - Started process (PID=10011) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:04:39.006+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:04:39.009+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:39.008+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:04:39.017+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:04:39.031+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:39.030+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:04:39.046+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:04:39.046+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:04:39.063+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2026-05-04T01:05:46.808+0300] {processor.py:186} INFO - Started process (PID=10272) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:05:46.816+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:05:46.817+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:46.817+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:05:46.826+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:05:46.839+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:46.839+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:05:46.856+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:05:46.856+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:05:46.875+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.072 seconds
+[2026-05-04T01:06:50.830+0300] {processor.py:186} INFO - Started process (PID=10533) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:06:50.834+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:06:50.836+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:50.835+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:06:50.858+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:06:50.891+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:50.891+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:06:50.944+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:06:50.944+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:06:50.970+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.152 seconds
+[2026-05-04T01:07:59.444+0300] {processor.py:186} INFO - Started process (PID=10797) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:07:59.452+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:07:59.453+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:59.453+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:07:59.459+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:07:59.470+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:59.470+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:07:59.483+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:07:59.483+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:07:59.499+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.059 seconds
+[2026-05-04T01:09:05.330+0300] {processor.py:186} INFO - Started process (PID=11931) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:09:05.337+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:09:05.338+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:05.338+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:09:05.345+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:09:05.358+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:05.358+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:09:05.374+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:09:05.373+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:09:05.389+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2026-05-04T01:10:15.882+0300] {processor.py:186} INFO - Started process (PID=12255) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:10:15.891+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:10:15.893+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:15.892+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:10:15.900+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:10:15.912+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:15.912+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:10:15.926+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:10:15.926+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:10:15.942+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2026-05-04T01:11:25.289+0300] {processor.py:186} INFO - Started process (PID=12517) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:11:25.291+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:11:25.292+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:11:25.292+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:11:25.299+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:11:25.310+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:11:25.309+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:11:25.324+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:11:25.324+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:11:25.340+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.055 seconds
+[2026-05-04T01:12:25.458+0300] {processor.py:186} INFO - Started process (PID=12748) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:12:25.460+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:12:25.461+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:25.460+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:12:25.467+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:12:25.479+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:25.479+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:12:25.493+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:12:25.493+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:12:25.511+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.057 seconds
+[2026-05-04T01:13:25.675+0300] {processor.py:186} INFO - Started process (PID=13270) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:13:25.677+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:13:25.679+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:13:25.678+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:13:25.687+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:13:25.701+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:13:25.701+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:13:25.722+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:13:25.722+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:13:25.742+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.072 seconds
+[2026-05-04T01:14:31.301+0300] {processor.py:186} INFO - Started process (PID=14295) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:14:31.303+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:14:31.305+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:14:31.304+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:14:31.312+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:14:31.326+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:14:31.326+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:14:31.345+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:14:31.345+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:14:31.365+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2026-05-04T01:15:40.810+0300] {processor.py:186} INFO - Started process (PID=14554) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:15:40.812+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:15:40.813+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:40.813+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:15:40.819+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:15:40.830+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:40.829+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:15:40.843+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:15:40.842+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:15:40.861+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.055 seconds
+[2026-05-04T01:16:48.927+0300] {processor.py:186} INFO - Started process (PID=15776) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:16:48.937+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:16:48.938+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:48.938+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:16:48.945+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:16:48.960+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:48.960+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:16:48.977+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:16:48.977+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:16:48.999+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2026-05-04T01:17:57.120+0300] {processor.py:186} INFO - Started process (PID=16033) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:17:57.122+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:17:57.124+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:57.123+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:17:57.132+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:17:57.149+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:57.149+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:17:57.165+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:17:57.165+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:17:57.184+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2026-05-04T01:19:05.876+0300] {processor.py:186} INFO - Started process (PID=16294) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:19:05.884+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:19:05.886+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:05.885+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:19:05.892+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:19:05.903+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:05.903+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:19:05.916+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:19:05.916+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:19:05.930+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.059 seconds
+[2026-05-04T01:20:08.779+0300] {processor.py:186} INFO - Started process (PID=16546) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:20:08.781+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:20:08.783+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:08.782+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:20:08.793+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:20:08.811+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:08.811+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:20:08.831+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:20:08.831+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:20:08.852+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2026-05-04T01:21:16.395+0300] {processor.py:186} INFO - Started process (PID=16804) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:21:16.404+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:21:16.405+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:16.404+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:21:16.411+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:21:16.421+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:16.421+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:21:16.435+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:21:16.435+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:21:16.451+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.060 seconds
+[2026-05-04T01:22:27.757+0300] {processor.py:186} INFO - Started process (PID=17070) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:22:27.759+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:22:27.760+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:22:27.759+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:22:27.766+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:22:27.779+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:22:27.779+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:22:27.795+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:22:27.794+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:22:27.814+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds
+[2026-05-04T01:23:36.642+0300] {processor.py:186} INFO - Started process (PID=17334) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:23:36.644+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:23:36.645+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:23:36.645+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:23:36.652+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:23:36.665+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:23:36.664+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:23:36.679+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:23:36.679+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:23:36.697+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.060 seconds
+[2026-05-04T01:24:42.594+0300] {processor.py:186} INFO - Started process (PID=17899) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:24:42.602+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:24:42.604+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:42.603+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:24:42.610+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:24:42.622+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:42.622+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:24:42.636+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:24:42.636+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:24:42.785+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.196 seconds
+[2026-05-04T01:25:52.845+0300] {processor.py:186} INFO - Started process (PID=18515) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:25:52.847+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:25:52.848+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:52.847+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:25:52.854+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:25:52.865+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:52.865+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:25:52.878+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:25:52.878+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:25:52.894+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.053 seconds
+[2026-05-04T01:27:06.196+0300] {processor.py:186} INFO - Started process (PID=19464) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:27:06.205+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:27:06.206+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:06.205+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:27:06.213+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:27:06.224+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:06.224+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:27:06.241+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:27:06.241+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:27:06.257+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.066 seconds
+[2026-05-04T01:28:17.728+0300] {processor.py:186} INFO - Started process (PID=19729) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:28:17.730+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:28:17.731+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:17.731+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:28:17.739+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:28:17.751+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:17.751+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:28:17.897+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:28:17.897+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:28:17.916+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.193 seconds
+[2026-05-04T01:29:25.508+0300] {processor.py:186} INFO - Started process (PID=19991) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:29:25.518+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:29:25.519+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:29:25.519+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:29:25.525+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:29:25.535+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:29:25.535+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:29:25.548+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:29:25.548+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:29:25.667+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.163 seconds
+[2026-05-04T01:30:37.555+0300] {processor.py:186} INFO - Started process (PID=20265) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:30:37.557+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:30:37.559+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:30:37.558+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:30:37.566+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:30:37.579+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:30:37.579+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:30:37.595+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:30:37.595+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:30:37.612+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.063 seconds
+[2026-05-04T01:31:59.461+0300] {processor.py:186} INFO - Started process (PID=20566) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:31:59.471+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:31:59.472+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:59.471+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:31:59.600+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:31:59.610+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:59.610+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:31:59.622+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:31:59.622+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:31:59.638+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.181 seconds
+[2026-05-04T01:33:08.990+0300] {processor.py:186} INFO - Started process (PID=20972) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:33:08.992+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:33:08.993+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:08.993+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:33:08.999+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:33:09.010+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:09.010+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:33:09.023+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:33:09.023+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:33:09.041+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.056 seconds
+[2026-05-04T01:34:11.718+0300] {processor.py:186} INFO - Started process (PID=21344) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:34:11.720+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:34:11.721+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:11.720+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:34:11.727+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:34:11.740+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:11.740+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:34:11.754+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:34:11.754+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:34:11.771+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.056 seconds
+[2026-05-04T01:35:17.329+0300] {processor.py:186} INFO - Started process (PID=21598) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:35:17.339+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:35:17.341+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:17.340+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:35:17.347+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:35:17.358+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:17.358+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:35:17.372+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:35:17.371+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:35:17.389+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds
+[2026-05-04T01:36:18.786+0300] {processor.py:186} INFO - Started process (PID=21835) to work on /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:36:18.795+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2026-05-04T01:36:18.796+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:36:18.796+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:36:18.803+0300] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2026-05-04T01:36:18.814+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:36:18.814+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T01:36:18.828+0300] {logging_mixin.py:190} INFO - [2026-05-04T01:36:18.828+0300] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2026-05-03 16:00:00+00:00, run_after=2026-05-03 20:00:00+00:00
+[2026-05-04T01:36:18.845+0300] {processor.py:208} INFO - Processing /home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds

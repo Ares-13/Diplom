@@ -1,0 +1,39 @@
+[2026-05-04T01:58:00.726+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T01:58:00.737+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: partition_maintenance.partition_health_check scheduled__2026-04-26T03:00:00+00:00 [queued]>
+[2026-05-04T01:58:00.744+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: partition_maintenance.partition_health_check scheduled__2026-04-26T03:00:00+00:00 [queued]>
+[2026-05-04T01:58:00.744+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 2
+[2026-05-04T01:58:00.758+0300] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): partition_health_check> on 2026-04-26 03:00:00+00:00
+[2026-05-04T01:58:00.762+0300] {standard_task_runner.py:72} INFO - Started process 25621 to run task
+[2026-05-04T01:58:00.764+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'partition_maintenance', 'partition_health_check', 'scheduled__2026-04-26T03:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/partition_maintenance_dag.py', '--cfg-path', '/tmp/tmp09ice8h_']
+[2026-05-04T01:58:00.766+0300] {standard_task_runner.py:105} INFO - Job 19: Subtask partition_health_check
+[2026-05-04T01:58:00.825+0300] {task_command.py:467} INFO - Running <TaskInstance: partition_maintenance.partition_health_check scheduled__2026-04-26T03:00:00+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T01:58:00.867+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='partition_maintenance' AIRFLOW_CTX_TASK_ID='partition_health_check' AIRFLOW_CTX_EXECUTION_DATE='2026-04-26T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-26T03:00:00+00:00'
+[2026-05-04T01:58:00.868+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T01:58:00.883+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:58:00.893+0300] {sql.py:814} INFO - Running statement: 
+        SELECT c.relname
+        FROM pg_inherits i
+        JOIN pg_class c ON c.oid = i.inhrelid
+        WHERE i.inhparent = 'public.trains_with_partition'::regclass
+        ORDER BY c.relname
+        , parameters: None
+[2026-05-04T01:58:00.896+0300] {sql.py:823} INFO - Rows affected: 6
+[2026-05-04T01:58:00.905+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_default, parameters: None
+[2026-05-04T01:58:00.908+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:58:00.916+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_demo_20260310, parameters: None
+[2026-05-04T01:58:00.919+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:58:00.928+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_highspeed, parameters: None
+[2026-05-04T01:58:00.939+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:58:00.948+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_long_distance, parameters: None
+[2026-05-04T01:58:00.960+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:58:00.969+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_other, parameters: None
+[2026-05-04T01:58:00.979+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:58:00.989+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_suburban, parameters: None
+[2026-05-04T01:58:00.999+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:58:01.001+0300] {partition_maintenance_dag.py:61} INFO - Health report: [{'partition': 'trains_default', 'rows': 0, 'status': 'OK'}, {'partition': 'trains_demo_20260310', 'rows': 2, 'status': 'OK'}, {'partition': 'trains_highspeed', 'rows': 250057, 'status': 'OK'}, {'partition': 'trains_long_distance', 'rows': 299907, 'status': 'OK'}, {'partition': 'trains_other', 'rows': 250232, 'status': 'OK'}, {'partition': 'trains_suburban', 'rows': 199804, 'status': 'OK'}]
+[2026-05-04T01:58:01.015+0300] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-04T01:58:01.019+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T01:58:01.019+0300] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=partition_maintenance, task_id=partition_health_check, run_id=scheduled__2026-04-26T03:00:00+00:00, execution_date=20260426T030000, start_date=20260503T225800, end_date=20260503T225801
+[2026-05-04T01:58:01.057+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-04T01:58:01.080+0300] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T01:58:01.084+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

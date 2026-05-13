@@ -1,0 +1,30 @@
+[2026-05-04T01:55:32.847+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T01:55:32.857+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dynamic_partition_creation.verify_partitions scheduled__2026-05-03T12:00:00+00:00 [queued]>
+[2026-05-04T01:55:32.861+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dynamic_partition_creation.verify_partitions scheduled__2026-05-03T12:00:00+00:00 [queued]>
+[2026-05-04T01:55:32.862+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 3
+[2026-05-04T01:55:32.874+0300] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): verify_partitions> on 2026-05-03 12:00:00+00:00
+[2026-05-04T01:55:32.876+0300] {standard_task_runner.py:72} INFO - Started process 25120 to run task
+[2026-05-04T01:55:32.878+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dynamic_partition_creation', 'verify_partitions', 'scheduled__2026-05-03T12:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/partition_creation_dag.py', '--cfg-path', '/tmp/tmpd8bwscwz']
+[2026-05-04T01:55:32.880+0300] {standard_task_runner.py:105} INFO - Job 8: Subtask verify_partitions
+[2026-05-04T01:55:32.907+0300] {task_command.py:467} INFO - Running <TaskInstance: dynamic_partition_creation.verify_partitions scheduled__2026-05-03T12:00:00+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T01:55:32.949+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dynamic_partition_creation' AIRFLOW_CTX_TASK_ID='verify_partitions' AIRFLOW_CTX_EXECUTION_DATE='2026-05-03T12:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-03T12:00:00+00:00'
+[2026-05-04T01:55:32.950+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T01:55:32.964+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:55:32.973+0300] {sql.py:814} INFO - Running statement: SELECT COUNT(*) FROM public.trains_default, parameters: None
+[2026-05-04T01:55:32.976+0300] {sql.py:823} INFO - Rows affected: 1
+[2026-05-04T01:55:32.984+0300] {sql.py:814} INFO - Running statement: 
+        SELECT c.relname
+        FROM pg_inherits i
+        JOIN pg_class c ON c.oid = i.inhrelid
+        WHERE i.inhparent = 'public.trains_with_partition'::regclass
+        ORDER BY c.relname
+        , parameters: None
+[2026-05-04T01:55:32.987+0300] {sql.py:823} INFO - Rows affected: 6
+[2026-05-04T01:55:32.988+0300] {partition_creation_dag.py:65} INFO - Current partitions (6): ['trains_default', 'trains_demo_20260310', 'trains_highspeed', 'trains_long_distance', 'trains_other', 'trains_suburban']
+[2026-05-04T01:55:32.988+0300] {partition_creation_dag.py:66} INFO - Rows in default partition after run: 0
+[2026-05-04T01:55:33.001+0300] {python.py:240} INFO - Done. Returned value was: None
+[2026-05-04T01:55:33.005+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T01:55:33.005+0300] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=dynamic_partition_creation, task_id=verify_partitions, run_id=scheduled__2026-05-03T12:00:00+00:00, execution_date=20260503T120000, start_date=20260503T225532, end_date=20260503T225533
+[2026-05-04T01:55:33.051+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-04T01:55:33.061+0300] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T01:55:33.065+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

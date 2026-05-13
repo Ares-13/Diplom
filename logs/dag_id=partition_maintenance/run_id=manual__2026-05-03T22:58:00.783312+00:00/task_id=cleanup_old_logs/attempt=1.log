@@ -1,0 +1,20 @@
+[2026-05-04T01:58:14.342+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T01:58:14.351+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: partition_maintenance.cleanup_old_logs manual__2026-05-03T22:58:00.783312+00:00 [queued]>
+[2026-05-04T01:58:14.356+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: partition_maintenance.cleanup_old_logs manual__2026-05-03T22:58:00.783312+00:00 [queued]>
+[2026-05-04T01:58:14.356+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 2
+[2026-05-04T01:58:14.368+0300] {taskinstance.py:2907} INFO - Executing <Task(SQLExecuteQueryOperator): cleanup_old_logs> on 2026-05-03 22:58:00.783312+00:00
+[2026-05-04T01:58:14.370+0300] {standard_task_runner.py:72} INFO - Started process 25697 to run task
+[2026-05-04T01:58:14.373+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'partition_maintenance', 'cleanup_old_logs', 'manual__2026-05-03T22:58:00.783312+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/partition_maintenance_dag.py', '--cfg-path', '/tmp/tmpfuwndepg']
+[2026-05-04T01:58:14.375+0300] {standard_task_runner.py:105} INFO - Job 26: Subtask cleanup_old_logs
+[2026-05-04T01:58:14.407+0300] {task_command.py:467} INFO - Running <TaskInstance: partition_maintenance.cleanup_old_logs manual__2026-05-03T22:58:00.783312+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T01:58:14.456+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='partition_maintenance' AIRFLOW_CTX_TASK_ID='cleanup_old_logs' AIRFLOW_CTX_EXECUTION_DATE='2026-05-03T22:58:00.783312+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-03T22:58:00.783312+00:00'
+[2026-05-04T01:58:14.456+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T01:58:14.467+0300] {sql.py:306} INFO - Executing: CALL public.cleanup_partition_logs(90);
+[2026-05-04T01:58:14.473+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:58:14.489+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T01:58:14.499+0300] {sql.py:814} INFO - Running statement: CALL public.cleanup_partition_logs(90);, parameters: None
+[2026-05-04T01:58:14.507+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T01:58:14.507+0300] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=partition_maintenance, task_id=cleanup_old_logs, run_id=manual__2026-05-03T22:58:00.783312+00:00, execution_date=20260503T225800, start_date=20260503T225814, end_date=20260503T225814
+[2026-05-04T01:58:14.546+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-05-04T01:58:14.556+0300] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T01:58:14.562+0300] {local_task_job_runner.py:245} INFO - ::endgroup::

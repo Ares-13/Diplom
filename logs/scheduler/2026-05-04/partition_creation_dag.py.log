@@ -1,0 +1,43 @@
+[2026-05-04T12:20:03.197+0300] {processor.py:186} INFO - Started process (PID=1641) to work on /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:20:03.198+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_creation_dag.py for tasks to queue
+[2026-05-04T12:20:03.201+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:20:03.200+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:20:03.221+0300] {processor.py:925} INFO - DAG(s) 'dynamic_partition_creation' retrieved from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:20:03.261+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:20:03.261+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:20:03.286+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:20:03.286+0300] {dag.py:4180} INFO - Setting next_dagrun for dynamic_partition_creation to 2026-05-04 00:00:00+00:00, run_after=2026-05-04 06:00:00+00:00
+[2026-05-04T12:20:03.308+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_creation_dag.py took 0.119 seconds
+[2026-05-04T12:22:20.022+0300] {processor.py:186} INFO - Started process (PID=2038) to work on /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:22:20.024+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_creation_dag.py for tasks to queue
+[2026-05-04T12:22:20.025+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:20.024+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:22:20.036+0300] {processor.py:925} INFO - DAG(s) 'dynamic_partition_creation' retrieved from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:22:20.059+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:20.058+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:22:20.091+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_creation_dag.py took 0.075 seconds
+[2026-05-04T12:22:50.237+0300] {processor.py:186} INFO - Started process (PID=2123) to work on /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:22:50.246+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_creation_dag.py for tasks to queue
+[2026-05-04T12:22:50.248+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:50.247+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:22:50.255+0300] {processor.py:925} INFO - DAG(s) 'dynamic_partition_creation' retrieved from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:22:50.283+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:50.283+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:22:50.315+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_creation_dag.py took 0.084 seconds
+[2026-05-04T12:23:20.720+0300] {processor.py:186} INFO - Started process (PID=2199) to work on /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:23:20.722+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_creation_dag.py for tasks to queue
+[2026-05-04T12:23:20.724+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:20.723+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:23:20.734+0300] {processor.py:925} INFO - DAG(s) 'dynamic_partition_creation' retrieved from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:23:20.762+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:20.761+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:23:20.792+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_creation_dag.py took 0.083 seconds
+[2026-05-04T12:23:51.194+0300] {processor.py:186} INFO - Started process (PID=2283) to work on /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:23:51.196+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_creation_dag.py for tasks to queue
+[2026-05-04T12:23:51.198+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:51.197+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:23:51.211+0300] {processor.py:925} INFO - DAG(s) 'dynamic_partition_creation' retrieved from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:23:51.266+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:51.265+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:23:51.311+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_creation_dag.py took 0.128 seconds
+[2026-05-04T12:24:21.801+0300] {processor.py:186} INFO - Started process (PID=2367) to work on /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:24:21.812+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_creation_dag.py for tasks to queue
+[2026-05-04T12:24:21.813+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:21.813+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:24:21.824+0300] {processor.py:925} INFO - DAG(s) 'dynamic_partition_creation' retrieved from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:24:21.855+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:21.855+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:24:21.892+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_creation_dag.py took 0.096 seconds
+[2026-05-04T12:24:52.222+0300] {processor.py:186} INFO - Started process (PID=2451) to work on /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:24:52.223+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_creation_dag.py for tasks to queue
+[2026-05-04T12:24:52.224+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:52.224+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:24:52.233+0300] {processor.py:925} INFO - DAG(s) 'dynamic_partition_creation' retrieved from /home/nikita/airflow/diplom/dags/partition_creation_dag.py
+[2026-05-04T12:24:52.275+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:52.275+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:24:52.313+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_creation_dag.py took 0.099 seconds

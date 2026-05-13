@@ -1,0 +1,42 @@
+[2026-05-04T12:22:21.196+0300] {processor.py:186} INFO - Started process (PID=2045) to work on /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:22:21.198+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py for tasks to queue
+[2026-05-04T12:22:21.200+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:21.199+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:22:21.218+0300] {processor.py:925} INFO - DAG(s) 'partition_maintenance' retrieved from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:22:21.267+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:21.267+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:22:21.292+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:21.292+0300] {dag.py:4180} INFO - Setting next_dagrun for partition_maintenance to 2026-05-03 03:00:00+00:00, run_after=2026-05-10 03:00:00+00:00
+[2026-05-04T12:22:21.316+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py took 0.130 seconds
+[2026-05-04T12:22:52.457+0300] {processor.py:186} INFO - Started process (PID=2130) to work on /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:22:52.462+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py for tasks to queue
+[2026-05-04T12:22:52.463+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:52.463+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:22:52.471+0300] {processor.py:925} INFO - DAG(s) 'partition_maintenance' retrieved from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:22:52.499+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:52.499+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:22:52.515+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:22:52.514+0300] {dag.py:4180} INFO - Setting next_dagrun for partition_maintenance to 2026-05-03 03:00:00+00:00, run_after=2026-05-10 03:00:00+00:00
+[2026-05-04T12:22:52.537+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py took 0.088 seconds
+[2026-05-04T12:23:22.930+0300] {processor.py:186} INFO - Started process (PID=2206) to work on /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:23:22.941+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py for tasks to queue
+[2026-05-04T12:23:22.943+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:22.942+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:23:22.950+0300] {processor.py:925} INFO - DAG(s) 'partition_maintenance' retrieved from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:23:22.974+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:22.974+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:23:22.994+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:22.993+0300] {dag.py:4180} INFO - Setting next_dagrun for partition_maintenance to 2026-05-03 03:00:00+00:00, run_after=2026-05-10 03:00:00+00:00
+[2026-05-04T12:23:23.016+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py took 0.095 seconds
+[2026-05-04T12:23:53.518+0300] {processor.py:186} INFO - Started process (PID=2290) to work on /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:23:53.520+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py for tasks to queue
+[2026-05-04T12:23:53.521+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:53.520+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:23:53.529+0300] {processor.py:925} INFO - DAG(s) 'partition_maintenance' retrieved from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:23:53.556+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:53.556+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:23:53.571+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:23:53.571+0300] {dag.py:4180} INFO - Setting next_dagrun for partition_maintenance to 2026-05-03 03:00:00+00:00, run_after=2026-05-10 03:00:00+00:00
+[2026-05-04T12:23:53.590+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py took 0.079 seconds
+[2026-05-04T12:24:24.022+0300] {processor.py:186} INFO - Started process (PID=2374) to work on /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:24:24.032+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py for tasks to queue
+[2026-05-04T12:24:24.033+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:24.033+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:24:24.041+0300] {processor.py:925} INFO - DAG(s) 'partition_maintenance' retrieved from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:24:24.065+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:24.065+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:24:24.082+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:24.082+0300] {dag.py:4180} INFO - Setting next_dagrun for partition_maintenance to 2026-05-03 03:00:00+00:00, run_after=2026-05-10 03:00:00+00:00
+[2026-05-04T12:24:24.099+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py took 0.083 seconds
+[2026-05-04T12:24:54.557+0300] {processor.py:186} INFO - Started process (PID=2458) to work on /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:24:54.558+0300] {processor.py:914} INFO - Processing file /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py for tasks to queue
+[2026-05-04T12:24:54.559+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:54.559+0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:24:54.567+0300] {processor.py:925} INFO - DAG(s) 'partition_maintenance' retrieved from /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py
+[2026-05-04T12:24:54.590+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:54.590+0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-04T12:24:54.605+0300] {logging_mixin.py:190} INFO - [2026-05-04T12:24:54.605+0300] {dag.py:4180} INFO - Setting next_dagrun for partition_maintenance to 2026-05-03 03:00:00+00:00, run_after=2026-05-10 03:00:00+00:00
+[2026-05-04T12:24:54.622+0300] {processor.py:208} INFO - Processing /home/nikita/airflow/diplom/dags/partition_maintenance_dag.py took 0.072 seconds

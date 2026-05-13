@@ -1,0 +1,133 @@
+[2026-05-04T12:20:05.020+0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-05-04T12:20:05.032+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dynamic_partition_creation.ensure_log_table scheduled__2026-05-04T00:00:00+00:00 [queued]>
+[2026-05-04T12:20:05.038+0300] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dynamic_partition_creation.ensure_log_table scheduled__2026-05-04T00:00:00+00:00 [queued]>
+[2026-05-04T12:20:05.038+0300] {taskinstance.py:2884} INFO - Starting attempt 1 of 3
+[2026-05-04T12:20:05.054+0300] {taskinstance.py:2907} INFO - Executing <Task(SQLExecuteQueryOperator): ensure_log_table> on 2026-05-04 00:00:00+00:00
+[2026-05-04T12:20:05.057+0300] {standard_task_runner.py:72} INFO - Started process 1650 to run task
+[2026-05-04T12:20:05.062+0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dynamic_partition_creation', 'ensure_log_table', 'scheduled__2026-05-04T00:00:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/partition_creation_dag.py', '--cfg-path', '/tmp/tmpmaokqi61']
+[2026-05-04T12:20:05.064+0300] {standard_task_runner.py:105} INFO - Job 29: Subtask ensure_log_table
+[2026-05-04T12:20:05.105+0300] {task_command.py:467} INFO - Running <TaskInstance: dynamic_partition_creation.ensure_log_table scheduled__2026-05-04T00:00:00+00:00 [running]> on host DESKTOP-6NU1733.localdomain
+[2026-05-04T12:20:05.176+0300] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dynamic_partition_creation' AIRFLOW_CTX_TASK_ID='ensure_log_table' AIRFLOW_CTX_EXECUTION_DATE='2026-05-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-05-04T00:00:00+00:00'
+[2026-05-04T12:20:05.177+0300] {taskinstance.py:740} INFO - ::endgroup::
+[2026-05-04T12:20:05.199+0300] {sql.py:306} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS public.partition_log (
+                id              BIGSERIAL PRIMARY KEY,
+                operation_type  VARCHAR(50)  NOT NULL,
+                partition_name  VARCHAR(255),
+                train_type      VARCHAR(255),
+                rows_affected   BIGINT       DEFAULT 0,
+                status          VARCHAR(20)  DEFAULT 'SUCCESS',
+                error_message   TEXT,
+                executed_by     VARCHAR(100) DEFAULT 'system',
+                executed_at     TIMESTAMPTZ  DEFAULT NOW()
+            );
+        
+[2026-05-04T12:20:05.211+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T12:20:05.230+0300] {base.py:84} INFO - Retrieving connection 'postgres_default'
+[2026-05-04T12:22:19.303+0300] {taskinstance.py:3336} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 776, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 742, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 312, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 767, in run
+    with self._create_autocommit_connection(autocommit) as conn:
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 874, in _create_autocommit_connection
+    with closing(self.get_conn()) as conn:
+                 ^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 173, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "10.5.101.124", port 5532 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2026-05-04T12:22:19.330+0300] {taskinstance.py:1242} INFO - Marking task as UP_FOR_RETRY. dag_id=dynamic_partition_creation, task_id=ensure_log_table, run_id=scheduled__2026-05-04T00:00:00+00:00, execution_date=20260504T000000, start_date=20260504T092005, end_date=20260504T092219
+[2026-05-04T12:22:19.354+0300] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2026-05-04T12:22:19.355+0300] {standard_task_runner.py:124} ERROR - Failed to execute job 29 for task ensure_log_table (connection to server at "10.5.101.124", port 5532 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+; 1650)
+Traceback (most recent call last):
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3029, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 282, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3184, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3208, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 776, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 742, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 312, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 767, in run
+    with self._create_autocommit_connection(autocommit) as conn:
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 874, in _create_autocommit_connection
+    with closing(self.get_conn()) as conn:
+                 ^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 173, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nikita/airflow-setup/ENV/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "10.5.101.124", port 5532 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2026-05-04T12:22:19.389+0300] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-05-04T12:22:19.402+0300] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-04T12:22:19.402+0300] {local_task_job_runner.py:245} INFO - ::endgroup::
