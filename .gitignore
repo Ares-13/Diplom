@@ -1,0 +1,13 @@
+# Виртуальное окружение Python
+venv/
+ENV/
+.env
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Секреты и конфиги
+*.env
+config.ini
